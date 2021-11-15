@@ -1,0 +1,82 @@
+
+
+:root{
+	--color-green: #51e2aa;
+	--color-black: #111725;
+	--color-white: #fff;
+	--color-grey: #grey;
+	--font-family-title: 'Zen Kaku Gothic';
+	--font-family-text: 'Roboto', sans-serif;
+}
+
+body{
+	margin: 0;
+	background-color: black;
+}
+
+.background{
+	background-image: url('../assets/img/fondo.jpg');
+	background-repeat: no-repeat;
+	background-position: center right;
+	margin: 6rem;
+	min-height: 70vh;
+	position: relative;
+}
+
+.main{
+	background-color: black;
+	width: 56%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.logo{
+	width: 100px;
+	height: 40px;
+}
+
+.po-title{
+	font-size: 48px;
+}
+
+.po-title--green{
+	color: #51e2aa;
+	font-family: 'Roboto', sans-serif;
+}
+
+.po-title--white{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+.po-text{
+	color: grey;
+	position: relative;
+}
+
+.po-form{
+	padding: 5px;
+	width: 400px;
+}
+
+.po-form input[type="email"]{
+	background-color: black;
+	color: grey;
+	width: 350px;
+}
+
+.po-form input[type="button"]{
+	background-color:green;
+	color: black;
+	position: absolute;
+	z-index: 10;
+}
+
+.po-links-img{
+	height: 30px;
+	margin-top: 2rem;
+	padding: 9px 9px 9px;
+}
+
+@media screen 
